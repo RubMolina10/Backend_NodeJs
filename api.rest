@@ -7,9 +7,11 @@ POST   http://localhost:4000/api/employees
 Content-Type: application/json
 
 {
-    "nid":1,
-    "sNombres": "Enrique's",
-    "sAppPaterno":"s"
+    "nNum_Emp":12345678,
+    "sNombres":"Jesus",
+    "sAppellidos":"Smith",
+    "sPuesto":"Ingeniero",
+    "nSalario":500000
 }           
 ####
 GET  http://localhost:4000/api/employees/655911cf3c33247e8e6fd0c2

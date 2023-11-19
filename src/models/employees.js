@@ -1,9 +1,11 @@
 const {Schema,model} = require('mongoose');
 
 const EmployeSchema = new Schema({
-    nid:{type:Number, required:true},
+    nNum_Emp:{type:Number, required:true},
     sNombres:{type:String, required:true},
-    sAppPaterno:{type:String, required:true}
+    sAppellidos:{type:String, required:true},
+    sPuesto:{type:String, required:true},
+    nSalario:{type:Number, required:true},
 },{
     timestamps:true,
     versionKey:false
