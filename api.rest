@@ -1,1 +1,28 @@
-POST http://localhost:4000/api/employees
+
+
+
+GET  http://localhost:4000/api/employees  
+###
+POST   http://localhost:4000/api/employees
+Content-Type: application/json
+
+{
+    "nid":1,
+    "sNombres": "Enrique's",
+    "sAppPaterno":"s"
+}           
+####
+GET  http://localhost:4000/api/employees/655911cf3c33247e8e6fd0c2
+
+###
+DELETE   http://localhost:4000/api/employees/65599cce86866c9fbb2b4bf7
+
+###     
+PUT http://localhost:4000/api/employees/655911cf3c33247e8e6fd0c2
+Content-Type: application/json
+
+{
+    "nid":22,
+    "sNombres": "Enr",
+    "sAppPaterno":"asaas"
+}   
